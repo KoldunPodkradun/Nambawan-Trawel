@@ -1,0 +1,250 @@
+@media (max-width: 1300px) {
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .about-media-wrapp {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1191px) {
+
+    .about-media-wrapp {
+        width: 35%;
+    }
+
+    .sliders-block,
+    .sliders-block:last-child {
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .sliders-block:last-child .slider-wrapp {
+        margin: 0;
+    }
+
+    .slider-wrapp {
+        margin-right: 0;
+    }
+
+    .sliders-block:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .home-items {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-item {
+        margin-bottom: 25px;
+    }
+
+    .about-media-wrapp {
+        display: none;
+    }
+    
+    #about{
+    	padding-top: 78px;
+    }
+
+    #about,
+    .about-wrapp {
+        height: auto;
+    }
+
+    .about-wrapp {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+
+
+    .about-media-wrapp-mob {
+        position: static;
+        display: flex;
+    }
+
+    .about-info-items {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .about-info-item {
+        margin-bottom: 25px;
+    }
+
+
+    .about-media-wrapp {
+        width: 100%;
+        height: 450px;
+        top: auto;
+        bottom: 0;
+    }
+
+    .about-info-items {
+        justify-content: space-around;
+    }
+
+    .about-info {
+        max-width: 100%;
+    }
+
+    .about-info p {
+        margin-bottom: 50px;
+    }
+
+    #sliders {
+        padding-bottom: 78px;
+    }
+
+    .slider-wrapp,
+    .sliders-block:last-child .slider-wrapp {
+        margin-bottom: 50px;
+    }
+
+    .sliders-block {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .slider-info {
+        order: 1;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .pins {
+        display: none;
+    }
+
+    .menu {
+        left: -78px;
+    }
+
+    .menu ul {
+        display: block;
+    }
+
+    .hamburger {
+        background-image: url(../img/menu.png);
+    }
+
+    .hamburger:before {
+        color: #fff;
+        opacity: .8;
+    }
+
+    .hamburger-scroll {
+        background-image: url(../img/menu.svg);
+        opacity: 0.5;
+    }
+
+    .hamburger-scroll::before {
+        color: #000000;
+    }
+
+    .cross:before {
+        display: none;
+    }
+    .wrapper {
+        padding-left: 0;
+    }
+
+    .home-info h1,
+    .about-info h2,
+    .sliders-title {
+        font-size: 30px;
+    }
+
+    .about-info p {
+        margin-bottom: 15px;
+    }
+
+    .slider,
+    .slide-img {
+        max-width: 300px;
+    }
+
+    .counter-slides {
+        top: -25px;
+        left: 0;
+        transform: none;
+    }
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer-wrapp {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer-item {
+        margin-bottom: 28px;
+    }
+
+    .footer-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer-item h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    br {
+        display: none;
+    }
+
+    .header-wrapp {
+        flex-direction: column;
+        justify-content: flex-end;
+        -ms-align-items: flex-end;
+        align-items: flex-end;
+        img {
+            margin-bottom: 10px;
+        }
+    }
+
+    .header-contacts a {
+        font-size: 14px;
+    }
+
+    .home-button {
+        padding-right: 39px;
+    }
+}
