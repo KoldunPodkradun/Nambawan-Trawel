@@ -91,7 +91,7 @@ $(document).ready(function($) {
     /*цвет гамбургера при скролле*/
     $(window).scroll(function() {
         var scr = $(this).scrollTop();
-        var about = $('#about').offset();ы
+        var about = $('#about').offset();
         if (scr >= about['top']) {
             $('.hamburger').addClass('hamburger-scroll', 300);
             $('.pins').addClass('pins-scroll', 300);
